@@ -39,14 +39,6 @@ For clustering, we focus mainly on:
 
 ---
 
-##  Evaluation Metrics
-Since clustering is unsupervised, we use **internal evaluation metrics**:
-- **Silhouette Score** → Higher is better (cohesive + well-separated clusters).
-- **Calinski-Harabasz Index** → Higher means more distinct clusters.
-- **Davies-Bouldin Index** → Lower indicates better clustering.
-
----
-
 ##  Visualizations
 - PCA (2D reduction) scatter plots to visually compare cluster separation.  
 - Side-by-side comparison of KMeans vs Agglomerative clustering.  
